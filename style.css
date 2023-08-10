@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+form {
+width: 300px;
+margin: 200px auto;
+text-align: center;
+}
+
+input {
+    display: block;
+    margin: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .container_imagem {
+width: 50vw;
+    }
+    .container_caixa {
+        margin: 2em 2em;
+    }
+    
+    }
